@@ -33,6 +33,9 @@ def get_embeddings(texts):
 
     assert isinstance(texts, (str, list)), f"Got {type(texts)}."
 
+    # todo
+    # - precompute repeated sentences, store in vector database to save time and reduce api usage
+
     # handle string as list
     if isinstance(texts, str):
         texts = [texts]
