@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 ## 2. Create API
 
-First, create a `.env` file in the project folder and add your `OPENAI_API_KEY` by:
+First, create a `.env` file in the project folder and add the `OPENAI_API_KEY` by:
 
 ```bash
 OPENAI_API_KEY=your_api_key
@@ -83,9 +83,9 @@ docker run -p 8000:8000 --env-file ../.env --name medtext-api medtext-summarizer
 
 ## 3. Interact with the API
 
-First, create a folder `datasets` and add the `*.txt` notes in a subfolder called `notes`.
+Create a folder `datasets` in the root folder and add the `*.txt` notes in a subfolder called `notes`.
 
-Then, to interact with the API, on a separate terminal in your root folder, run:
+Then, to interact with the API, on a separate terminal in the root folder, run:
 ```bash
 python request.py
 ```
@@ -94,7 +94,7 @@ This runs POST `/summarize`, GET `/health`, POST `/feedback`.
 
 ## 4. Run tests
 
-To run tests, in your terminal, run the command:
+To run tests, in the terminal, run the command:
 ```bash
 python -m pytest ./tests
 ```
