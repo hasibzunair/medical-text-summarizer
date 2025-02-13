@@ -83,7 +83,7 @@ docker run -p 8000:8000 --env-file ../.env --name medtext-api medtext-summarizer
 
 ## 3. Interact with the API
 
-First, create a folder `dataset` and add the `*.txt` notes in a subfolder called `notes`.
+First, create a folder `datasets` and add the `*.txt` notes in a subfolder called `notes`.
 
 Then, to interact with the API, on a separate terminal in your root folder, run:
 ```bash
