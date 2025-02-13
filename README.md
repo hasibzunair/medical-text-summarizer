@@ -85,7 +85,7 @@ docker run -p 8000:8000 --env-file ../.env --name medtext-api medtext-summarizer
 
 To interact with the API, on a separate terminal in your root folder, run:
 ```bash
-python requests.py
+python request.py
 ```
 
 ## 4. Run tests
