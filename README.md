@@ -23,8 +23,8 @@ flowchart TB
     end
 
     subgraph External["External Services"]
-        GPT["OpenAI GPT-3.5\n(Text Generation)"]
-        EMB_API["OpenAI Embeddings API\n(text-embedding-3-small)"]
+        GPT["OpenAI GPT-3.5 (Text Generation)"]
+        EMB_API["OpenAI Embeddings API (text-embedding-3-small)"]
     end
 
     %% User to FastAPI flow
