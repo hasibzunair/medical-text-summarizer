@@ -1,0 +1,28 @@
+# Custom
+logs/
+datasets/
+tests/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Ignore virtual environments
+venv/
+.env
+*.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Git repository and metadata
+.git/
+.gitignore
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml
